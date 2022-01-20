@@ -16,7 +16,7 @@ export const GifGrid = ({ category }) => {
 
     return (
         <>
-            <h3 className='animate__animated animate__fadeInUp'>{category}</h3>
+            <h3 className='animate__animated animate__fadeInUp texto'>{category.toUpperCase()}</h3>
 
             {/* {loading && <p className='animate__animated animate__flash'>Loading</p>} */}
 

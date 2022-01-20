@@ -13,10 +13,12 @@ export const GifSearchApp = () => {
 
     return (
         <>
-            <h2>Gif search App</h2>
-            <AddCategory
-                setCategories={setCategories}
-            ></AddCategory>
+            <div className='container-white'>
+                <h2 className='titulo'>Gif search App</h2>
+                <AddCategory
+                    setCategories={setCategories}
+                ></AddCategory>
+            </div>
             <hr />
             {/* <button onClick={handleAdd} > Add </button> */}
             <ul>

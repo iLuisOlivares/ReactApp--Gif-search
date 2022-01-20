@@ -1,11 +1,20 @@
 body {
+  background-color: #F9F9F9;
+  background: linear-gradient(350deg, rgb(61, 29, 102) 0%, rgb(44, 84, 165) 100%);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  padding: 10px;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+}
+
+.titulo{
+  color: #3D3B8E;
+  text-align: center;
+  margin: auto;
+}
+
+.texto{
+  color: #eeeeee;
+
 }
 
 code {
@@ -16,23 +25,54 @@ code {
 input{
   width: 40%;
   font-size: 1.3rem;
+  border-radius: 10px;
+    border: 3px solid #1198a1;
+    padding: 2px;
+    margin: 3px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #3D3B8E;
+}
+input[type=text]:focus-visible {
+  outline: white;
+}
+
+.search{
+  margin: 0 auto;
+    text-align: center;
 }
 
 
 .card{
   align-content: center;
-  border-radius: 10px;
-  border: 1px solid #532c2c;
-  margin: 10px 10px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 3px solid #ffffff;
+  margin: 5px;
   overFlow: hidden;
+  background-color: #3D3B8E;
+
 }
 
 .card p{
     text-align: center;
+    margin-bottom: 8px;
+    margin-top: 0px;
+    color: white;
+}
+
+.container-white{
+  background-color: white;
+  padding: 10px;
+
 }
 
 .card img{
-  max-height: 220px;
+  height: 180px;
+  width: 100%;
+  object-fit:cover;
+  border-radius: 8px;
 }
 
 .card-grid{
