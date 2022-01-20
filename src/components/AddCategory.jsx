@@ -10,9 +10,9 @@ function AddCategory({ setCategories }) {
         setInputValue(e.target.value);
     }
     const handleSubmit = (e) => {
-        setCategories(cats => [...cats, e.target[0].value]);
-        setInputValue('');
         e.preventDefault();
+        setCategories(cats => [e.target[0].value, ...cats]);
+        setInputValue('');
 
     }
 
