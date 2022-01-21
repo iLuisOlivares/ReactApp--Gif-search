@@ -3,7 +3,7 @@ body {
   background: linear-gradient(350deg, rgb(61, 29, 102) 0%, rgb(44, 84, 165) 100%);
   margin: 0;
   font-family: 'Lato', sans-serif;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .titulo{
@@ -39,8 +39,9 @@ input[type=text]:focus-visible {
 }
 
 .search{
-  margin: 0 auto;
-    text-align: center;
+  margin: 0px auto;
+  padding-top: 10px;
+  text-align: center;
 }
 
 

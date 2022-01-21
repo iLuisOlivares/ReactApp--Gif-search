@@ -19,6 +19,7 @@ function AddCategory({ setCategories }) {
     return (
         <form className='search' onSubmit={handleSubmit}>
             <input
+
                 type="text"
                 value={inputValue}
                 onChange={handleOnChange}

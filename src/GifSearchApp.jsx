@@ -6,7 +6,6 @@ export const GifSearchApp = () => {
 
     const [categories, setCategories] = useState([]);
 
-    // const handleAdd = () => {
     //     // setCategories([...categories, 'Bleach']);
     //     setCategories(cats => [...cats, 'Bleach']);
     // }
