@@ -1,2 +1,2 @@
 # Web Page using React
-Pequeña pagina web en la ademas de usar React para la creacion de la pagina y los respectivos componente, tambien se consumio la API de https://developers.giphy.com/ para crear un buscador de Gif
+Pequeña pagina web en la que ademas de usar React para la creacion de la pagina y los respectivos componentes, tambien se consumio la API de https://developers.giphy.com/ para crear un buscador de Gif
