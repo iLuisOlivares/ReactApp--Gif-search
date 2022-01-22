@@ -6,6 +6,7 @@ export const getGifs = async (category) => {
 
     const { data } = await resp.json();
 
+
     // fetch(url)
     //     .then(response => response.json())
     //     .then(data => console.log(data));

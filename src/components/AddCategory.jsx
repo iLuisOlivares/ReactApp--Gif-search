@@ -11,8 +11,12 @@ function AddCategory({ setCategories }) {
     }
     const handleSubmit = (e) => {
         e.preventDefault();
-        setCategories(cats => [e.target[0].value, ...cats]);
-        setInputValue('');
+
+        console.log('HandleSubmit:', inputValue);
+        if (inputValue.trim().length > 2) {
+            setCategories(cats => [e.target[0].value, ...cats]);
+            setInputValue('');
+        }
 
     }
 
